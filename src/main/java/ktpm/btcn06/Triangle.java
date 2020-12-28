@@ -1,3 +1,4 @@
+package ktpm.btcn06;
 
 public class Triangle {
   private Point A;

@@ -1,3 +1,5 @@
+package ktpm.btcn06;
+
 public enum TriangleType {
     INVALID,
     SCALENE,

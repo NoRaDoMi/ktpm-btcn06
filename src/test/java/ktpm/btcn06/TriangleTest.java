@@ -1,3 +1,8 @@
+package ktpm.btcn06;
+
+import ktpm.btcn06.Point;
+import ktpm.btcn06.Triangle;
+import ktpm.btcn06.TriangleType;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -85,7 +90,7 @@ class TriangleTest {
   void testRightAngledTriangle1() {
     Point A = new Point(0, 0);
     Point B = new Point(0, 3);
-    Point C = new Point(5, 0);
+    Point C = new Point(4, 0);
 
     Triangle triangle = new Triangle(A, B, C);
 
@@ -98,7 +103,7 @@ class TriangleTest {
   void testRightAngledTriangle2() {
     Point A = new Point(0, 0);
     Point B = new Point(3, 0);
-    Point C = new Point(0, 5);
+    Point C = new Point(0, 4);
 
     Triangle triangle = new Triangle(A, B, C);
 
@@ -111,7 +116,7 @@ class TriangleTest {
   void testRightAngledTriangle3() {
     Point A = new Point(3, 0);
     Point B = new Point(0, 0);
-    Point C = new Point(0, 5);
+    Point C = new Point(0, 4);
 
     Triangle triangle = new Triangle(A, B, C);
 

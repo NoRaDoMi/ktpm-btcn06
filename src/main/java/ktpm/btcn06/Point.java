@@ -1,3 +1,5 @@
+package ktpm.btcn06;
+
 public class Point {
     private double a;
     private double b;
